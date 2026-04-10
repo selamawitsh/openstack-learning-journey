@@ -1,0 +1,24 @@
+# Sensitive files
+*.pem
+*.key
+*.pub
+.env
+*.secret
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
