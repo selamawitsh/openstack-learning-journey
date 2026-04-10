@@ -1,0 +1,19 @@
+
+---
+
+
+### local.conf
+
+```bash
+# Copy this file to: /opt/stack/devstack/local.conf
+# OR: ~/openstack-learning-journey/configurations/local.conf
+
+[[local|localrc]]
+# Passwords
+ADMIN_PASSWORD=secret
+DATABASE_PASSWORD=$ADMIN_PASSWORD
+RABBIT_PASSWORD=$ADMIN_PASSWORD
+SERVICE_PASSWORD=$ADMIN_PASSWORD
+
+# Networking
+HOST_IP=192.168.45.128
